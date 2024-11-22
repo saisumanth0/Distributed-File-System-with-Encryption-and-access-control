@@ -10,3 +10,11 @@ This Project is just a basic DFS with minimum features, this can be developed fu
 - Role-based access control for user security.
 - Scalable architecture suitable for distributed environments.
 
+## steps to follow
+
+- Firstly, run the metadata_manager.py. This creates a new metadata folder and metadata database under the folder.
+- Then Run encryption_utils.py which generates the encryption key and saves inside metadata folder.
+  
+To upload file: run dfs.py in CLI  with the command "python dfs.py upload --role <admin/viewer> --file <filepath>.txt --storage_node <1/2/3>"
+
+To view or edit file  "python file_operations.py "<textfile>.enc" "<admin/viewer>" <node> "
