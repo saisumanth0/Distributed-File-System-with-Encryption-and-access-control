@@ -17,4 +17,4 @@ This Project is just a basic DFS with minimum features, this can be developed fu
   
 To upload file: run dfs.py in CLI  with the command "python dfs.py upload --role <admin/viewer> --file filepath.txt --storage_node <1/2/3>"
 
-To view or edit file  "python file_operations.py "<textfile>.enc" "<admin/viewer>" <node> "
+To view or edit file  "python file_operations.py "<textfile>.enc" "<admin/viewer>" <node 1/2/3> "
